@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/randq/static/css/main.073c9b0a.css",
+    "main.js": "/randq/static/js/main.3849de67.js",
+    "static/js/787.df303193.chunk.js": "/randq/static/js/787.df303193.chunk.js",
+    "static/media/logo.svg": "/randq/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/randq/index.html",
+    "main.073c9b0a.css.map": "/randq/static/css/main.073c9b0a.css.map",
+    "main.3849de67.js.map": "/randq/static/js/main.3849de67.js.map",
+    "787.df303193.chunk.js.map": "/randq/static/js/787.df303193.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.3849de67.js"
+  ]
+}

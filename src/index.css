@@ -11,7 +11,10 @@ body {
 }
 blockquote {
   border-left: none;
+  padding-bottom: 0;
+  margin: 2px 0;
 }
+
 #text {
   text-align: center;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -36,7 +39,7 @@ blockquote {
 
 button {
   border-radius: 1rem;
-  color: black;
+  border: none;
 }
 .flexclass {
   display: flex;
@@ -67,7 +70,7 @@ body.scheme4 {
   background-color: rgb(136, 106, 163);
 }
 body.scheme5 {
-  background-color: rgb(248, 164, 38);
+  background-color: rgb(129, 136, 35);
 }
 body.scheme6 {
   background-color: rgb(190, 147, 82);
@@ -97,7 +100,7 @@ body.scheme0 {
   color: rgb(136, 106, 163);
 }
 .scheme5 {
-  color: rgb(248, 164, 38);
+  color: rgb(129, 136, 35);
 }
 .scheme6 {
   color: rgb(190, 147, 82);

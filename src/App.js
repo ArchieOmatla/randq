@@ -46,15 +46,15 @@ const App = () => {
         <a id="tweet-quote" href="twitter.com/intent/tweet" target="_blank">
           <FaTwitter className={"scheme" + index} />
         </a>
-        <MyButton onClick={handleClick} />
+        <MyButton onClick={handleClick} className={"scheme" + index} />
       </div>
     </div>
   );
 };
 
-const MyButton = ({ onClick }) => {
+const MyButton = ({ onClick, className }) => {
   return (
-    <button className="btn" onClick={onClick}>
+    <button onClick={onClick} className={className}>
       New Quote
     </button>
   );

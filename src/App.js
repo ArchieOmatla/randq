@@ -43,7 +43,12 @@ const App = () => {
       </blockquote>
 
       <div className="flexclass">
-        <a id="tweet-quote" href="twitter.com/intent/tweet" target="_blank">
+        <a
+          id="tweet-quote"
+          href="https://twitter.com/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FaTwitter className={"scheme" + index} />
         </a>
         <MyButton onClick={handleClick} className={"scheme" + index} />

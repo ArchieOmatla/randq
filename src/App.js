@@ -1,7 +1,7 @@
 import "./App.css";
 import { useState } from "react";
 //import { createRoot } from "react-dom/client";
-import { FaQuoteLeft, FaTwitter } from "react-icons/fa";
+import { FaQuoteLeft, FaTwitterSquare, FaFacebookSquare } from "react-icons/fa";
 import { BsDash } from "react-icons/bs";
 
 const QUOTES = [
@@ -43,14 +43,25 @@ const App = () => {
       </blockquote>
 
       <div className="flexclass">
-        <a
-          id="tweet-quote"
-          href="https://twitter.com/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <FaTwitter className={"scheme" + index} />
-        </a>
+        <div id="socials">
+          <a
+            id="tweet-quote"
+            href="https://twitter.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaTwitterSquare className={"scheme" + index} />
+          </a>
+          <a
+            id="facebook"
+            href="https://www.facebook.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaFacebookSquare className={"scheme" + index} />
+          </a>
+        </div>
+
         <MyButton onClick={handleClick} className={"scheme" + index} />
       </div>
     </div>

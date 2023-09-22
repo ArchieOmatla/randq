@@ -18,12 +18,16 @@ const QUOTES = [
   { quote: "Call me when you done crying", author: "Blackman Thula" },
 ];
 
+function randInt(max) {
+  return Math.floor(Math.random() * max);
+}
+
 const App = () => {
-  const [index, randNum] = useState(Math.floor(Math.random() * 9));
+  const [index, randNum] = useState(randInt(10));
   document.querySelector("body").className = "scheme" + index;
 
   function handleClick() {
-    randNum(Math.floor(Math.random() * 9));
+    randNum(randInt(10));
     let strg = "scheme" + index;
     document.querySelector("body").className = "";
     document.querySelector("body").classList.add(strg);

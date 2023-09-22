@@ -11,10 +11,14 @@ const QUOTES = [
   { quote: "Seriously stop crying", author: "Omatla" },
   { quote: "I am not a shoulder to cry on", author: "Sir Archibold" },
   { quote: "Should I call your mum", author: "Mr. Archibold" },
-  { quote: "Maybe your dad could comfort you", author: "Mr Omatla" },
+  {
+    quote:
+      "I would rather be disappointed time and again than to live a life where I don't trust anyone",
+    author: "Massmor",
+  },
   { quote: "Ok I am leaving", author: "Sir Archie of House Thula" },
   { quote: "It has been nice knowing you", author: "Sir Archie" },
-  { quote: "Maybe a glass of water", author: "Sir Omatla" },
+  { quote: "Bo a sa bo ya pele", author: "Maero" },
   { quote: "Call me when you done crying", author: "Blackman Thula" },
 ];
 

@@ -1,12 +1,19 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
 body {
-  justify-content: center;
+  height: inherit;
+  display: flex;
   align-items: center;
+  justify-content: center;
+  flex-flow: column;
 }
 #quote-box {
   text-align: right;
   background-color: #f7fafa;
-  width: 50rem;
-  margin: 20rem auto 0rem;
+  width: 100vh;
   border-radius: 1rem;
 }
 blockquote {
@@ -60,7 +67,7 @@ button {
   clear: both;
 }
 body.scheme1 {
-  background-color: #a68f97;
+  background-color: #524046;
 }
 body.scheme2 {
   background-color: #8aa6a3;
@@ -72,28 +79,33 @@ body.scheme4 {
   background-color: rgb(136, 106, 163);
 }
 body.scheme5 {
-  background-color: rgb(129, 136, 35);
+  background-color: rgb(99, 104, 27);
 }
 body.scheme6 {
-  background-color: rgb(190, 147, 82);
+  background-color: rgb(110, 85, 46);
 }
 body.scheme7 {
   background-color: #a63f65;
 }
 body.scheme8 {
-  background-color: #a3ab78;
+  background-color: #494e2b;
 }
 body.scheme9 {
   background-color: rgb(43, 128, 226);
 }
+
+body.scheme10 {
+  background-color: rgb(93, 73, 121);
+}
+
 body.scheme0 {
   background-color: #6a8c69;
 }
 .scheme1 {
-  color: #a68f97;
+  color: #524046;
 }
 .scheme2 {
-  color: #8aa6a3;
+  color: #456360;
 }
 .scheme3 {
   color: #8c7632;
@@ -102,22 +114,22 @@ body.scheme0 {
   color: rgb(136, 106, 163);
 }
 .scheme5 {
-  color: rgb(129, 136, 35);
+  color: rgb(99, 104, 27);
 }
 .scheme6 {
-  color: rgb(190, 147, 82);
+  color: rgb(110, 85, 46);
 }
 .scheme7 {
   color: #a63f65;
 }
 .scheme8 {
-  color: #a3ab78;
+  color: #494e2b;
 }
 .scheme9 {
   color: rgb(43, 128, 226);
 }
 .scheme10 {
-  color: rgb(148, 115, 190);
+  color: rgb(93, 73, 121);
 }
 .scheme0 {
   color: #6a8c69;

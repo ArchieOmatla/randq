@@ -6,8 +6,12 @@ import { BsDash } from "react-icons/bs";
 
 const QUOTES = [
   { quote: "Stop crying", author: "Archibold" },
-  { quote: "Why you crying", author: "Archie" },
-  { quote: "Cry later when i am not around", author: "Mr.Thula" },
+  {
+    quote:
+      "Imagine being impressed by a bottle of hennessey with no hennessey inside",
+    author: "Maero",
+  },
+  { quote: "Cry later when I am not around", author: "Mr.Thula" },
   { quote: "Seriously stop crying", author: "Omatla" },
   { quote: "I am not a shoulder to cry on", author: "Sir Archibold" },
   { quote: "Should I call your mum", author: "Mr. Archibold" },
@@ -27,14 +31,14 @@ function randInt(max) {
 }
 
 const App = () => {
-  const [index, randNum] = useState(randInt(10));
+  const [index, randNum] = useState(randInt(QUOTES.length));
   document.querySelector("body").className = "scheme" + index;
 
   function handleClick() {
-    randNum(randInt(10));
-    let strg = "scheme" + index;
+    randNum(randInt(QUOTES.length));
+    //let strg = "scheme" + cssIndex;
     document.querySelector("body").className = "";
-    document.querySelector("body").classList.add(strg);
+    document.querySelector("body").classList.add("scheme" + index);
   }
 
   return (
@@ -83,9 +87,5 @@ const MyButton = ({ onClick, className }) => {
     </button>
   );
 };
-
-/*const container = document.getElementById("quote-box");
-const root = createRoot(container);
-root.render(<App />);*/
 
 export default App;

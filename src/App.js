@@ -5,16 +5,20 @@ import { FaQuoteLeft, FaTwitterSquare, FaFacebookSquare } from "react-icons/fa";
 import { BsDash } from "react-icons/bs";
 
 const QUOTES = [
-  { quote: "Stop crying", author: "Archibold" },
+  { quote: "The door is closed not locked", author: "Hili" },
   {
     quote:
       "Imagine being impressed by a bottle of hennessey with no hennessey inside",
     author: "Maero",
   },
-  { quote: "Cry later when I am not around", author: "Mr.Thula" },
+  { quote: "Peba ga e bape le manoko", author: "Hili" },
   { quote: "Seriously stop crying", author: "Omatla" },
   { quote: "I am not a shoulder to cry on", author: "Sir Archibold" },
-  { quote: "Should I call your mum", author: "Mr. Archibold" },
+  {
+    quote:
+      "Other people are shooting for the stars and you are busy trying to figure out if humans can even fly",
+    author: "O.G",
+  },
   {
     quote:
       "I would rather be disappointed time and again than to live a life where I don't trust anyone",

@@ -12,7 +12,11 @@ const QUOTES = [
     author: "Maero",
   },
   { quote: "Peba ga e bape le manoko", author: "Hili" },
-  { quote: "Seriously stop crying", author: "Omatla" },
+  {
+    quote:
+      "Maybe you where better of growing up without a silver spoon, for all you know you would have cooked crack in it",
+    author: "O.G",
+  },
   { quote: "I am not a shoulder to cry on", author: "Sir Archibold" },
   {
     quote:

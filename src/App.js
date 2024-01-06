@@ -28,7 +28,10 @@ const QUOTES = [
       "I would rather be disappointed time and again than to live a life where I don't trust anyone",
     author: "Massmor",
   },
-  { quote: "Ok I am leaving", author: "Sir Archie of House Thula" },
+  {
+    quote: "Everyone goes to church, we just call it different things",
+    author: "O.G",
+  },
   { quote: "It has been nice knowing you", author: "Sir Archie" },
   { quote: "Bo a sa bo ya pele", author: "Maero" },
   { quote: "Call me when you done crying", author: "Blackman Thula" },

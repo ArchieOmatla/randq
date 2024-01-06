@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/randq/static/css/main.f60043d2.css",
-    "main.js": "/randq/static/js/main.73bdb923.js",
-    "static/js/787.df303193.chunk.js": "/randq/static/js/787.df303193.chunk.js",
+    "main.css": "/randq/static/css/main.c0afacd0.css",
+    "main.js": "/randq/static/js/main.81c5186d.js",
+    "static/js/787.26766824.chunk.js": "/randq/static/js/787.26766824.chunk.js",
     "index.html": "/randq/index.html",
-    "main.f60043d2.css.map": "/randq/static/css/main.f60043d2.css.map",
-    "main.73bdb923.js.map": "/randq/static/js/main.73bdb923.js.map",
-    "787.df303193.chunk.js.map": "/randq/static/js/787.df303193.chunk.js.map"
+    "main.c0afacd0.css.map": "/randq/static/css/main.c0afacd0.css.map",
+    "main.81c5186d.js.map": "/randq/static/js/main.81c5186d.js.map",
+    "787.26766824.chunk.js.map": "/randq/static/js/787.26766824.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f60043d2.css",
-    "static/js/main.73bdb923.js"
+    "static/css/main.c0afacd0.css",
+    "static/js/main.81c5186d.js"
   ]
 }
